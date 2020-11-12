@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  background: radial-gradient(83.57% 136.64% at 0% 0%, #90B9F7 0%, #0E7495 99.99%);
+  height: 100vh;
+  width: 100%;
+  color: #f4f4f4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 25% 30% 10% 10% 25%;
+      grid-template-rows: 25% 30% 10% 10% 25%;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .img-container {
+  width: 200px;
+  text-align: center;
+}
+
+.main .img-container h1 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.main .img-container img {
+  width: 80%;
+}
+
+.main h2 {
+  font-weight: 600;
+  font-size: 25;
+}
+
+.main .button {
+  padding: 12px 30px;
+  border-radius: 9px;
+  min-width: 280px;
+  max-width: 500px;
+  min-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  color: #0D4194;
+  text-decoration: none;
+}
+
+.main .login {
+  background: #f4f4f4;
+}
+
+.main .sign-up {
+  color: #f4f4f4;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.main .container-division {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 60%;
+  width: 50%;
+}
+
+.main .container-division .division {
+  background: #f4f4f4;
+  width: 40%;
+  max-width: 180px;
+  height: .5rem;
+  -webkit-transform: translateY(120%);
+          transform: translateY(120%);
+}
+
+.main .container-division p {
+  margin: 0 10%;
+  font-size: 20px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=estilos.css.map */

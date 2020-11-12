@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .hero {
+  background: radial-gradient(83.57% 136.64% at 0% 0%, #90B9F7 0%, #0E7495 99.99%);
+  width: 100%;
+  height: 65vh;
+  border-radius: 0 0 40px 40px;
+}
+
+body .hero header {
+  max-width: 1800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+  height: 10vh;
+  max-height: 400px;
+  padding: 1rem 0 0 1.5rem;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .hero header .img-container {
+  width: 20%;
+  max-width: 100px;
+  margin-right: 2rem;
+}
+
+body .hero header .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+body .hero header h1 {
+  color: #f4f4f4;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+body .hero .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 70% 30%;
+  -ms-grid-columns: 1fr;
+      grid-template: 70% 30%/1fr;
+  height: 85%;
+  grid-gap: 15%;
+}
+
+body .hero .container .profile {
+  padding: 5rem 0;
+  height: 80%;
+  text-align: center;
+  color: #f4f4f4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .hero .container .profile .img-container {
+  margin-bottom: 2rem;
+  width: 33%;
+  max-width: 150px;
+}
+
+body .hero .container .profile .img-container img {
+  width: 100%;
+}
+
+body .hero .container .profile h2 {
+  font-weight: 300;
+}
+
+body .hero .container .button {
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: center;
+  width: 50%;
+  max-width: 300px;
+  height: 50%;
+  padding: 6px 20px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(58.85%, #0E7495), to(rgba(14, 116, 149, 0.6)));
+  background: linear-gradient(180deg, #0E7495 58.85%, rgba(14, 116, 149, 0.6) 100%);
+  border-radius: 10px;
+}
+
+body .hero .container .button a {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+body .hero h3 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  -webkit-transform: translateY(300%);
+          transform: translateY(300%);
+}
+/*# sourceMappingURL=inicio.css.map */

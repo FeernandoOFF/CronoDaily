@@ -1,0 +1,72 @@
+@import default.sass
+body
+    .hero
+        background: $gradiante
+        width: 100%
+        height: 65vh
+        border-radius: 0 0 40px 40px
+        header
+            max-width: 1800px
+            margin: 0 auto
+            display: flex
+            flex-wrap: nowrap
+            width: 100%
+            height: 10vh
+            max-height: 400px
+            padding: 1rem 0 0 1.5rem
+            justify-content: left
+            align-items: center
+            .img-container
+                width: 20%
+                max-width: 100px
+                margin-right: 2rem
+                img
+                    width: 100%
+                    height: 100%
+            h1
+                color: $blanco
+                font-size: 20px
+                font-weight: 300
+        .container
+            display: grid
+            grid-template: 70%30%/1fr
+            height: 85%
+            grid-gap: 15%
+            .profile
+                padding: 5rem 0
+                height: 80%
+                text-align: center
+                color: $blanco
+                align-items: center
+                display: flex
+                flex-direction: column
+                .img-container
+                    margin-bottom: 2rem
+                    width: 33%
+                    max-width: 150px
+
+                    img
+                        width: 100%
+                h2
+                    font-weight: 300
+            .button
+                transform: translateY(30%)
+                justify-self: center
+                text-align: center
+                width: 50%
+                max-width: 300px
+                height: 50%
+                padding: 6px 20px
+                background: linear-gradient(180deg, #0E7495 58.85%, rgba(14, 116, 149, 0.6) 100%)
+                border-radius: 10px
+                a
+
+                    text-decoration: none
+                    color: $blanco
+                    font-weight: 600
+
+        h3
+            font-weight: 700
+            text-align: center
+            font-size: 25px
+            transform: translateY(300%)
